@@ -1,0 +1,191 @@
+/* NAME: ABIODUN SUKURAT
+   TITLE: SPOTIFY CLONE
+   TLW: GROUP 3
+   ASSIGNMENT 1
+   submitted on 6th of november 2019
+    */
+
+/*header*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+
+body html ul li{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar{
+    display: flex;
+    font-size: 1em;
+    color: white;
+    background: rgba(36, 30, 30, 0.459);
+    padding: 1.5em;
+    padding-top: 1.8em;
+}
+.navbar > ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-right: 100px;   
+}
+.navbar > ul > .navlogo {   
+    flex: 0.9;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar > ul > li > a.content{
+    text-decoration: none;
+    color: white;
+    opacity: 1.0;
+    font-weight: bold;
+}
+.navbar > ul > li > #sign-up {
+    color: green;
+    font-weight: bold;
+}
+/* first container*/
+.orange-container{
+    background: url(images/bck1.jpg)center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container-pattern{
+    font-size: 3em;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.container-pattern > p{
+    font-size: 0.4em;
+    padding-top: 0.6em;
+}
+/* middle container*/
+.second-section{
+    background:white;
+}
+.middle-container{
+    font-size: 2em;
+    background: rgba(0,255, 0, 0.2);
+    display: flex;
+    color:black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+    padding: 2.5em;  
+}
+.middle-container > h2{
+    font-size: 1.4em;
+}
+.middle-button{
+    background: black;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 20px 50px;
+    font-weight: bold;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    cursor: pointer;   
+}
+.container-pattern > #first-button{
+    background-color: green;
+}
+.middle-container > .middle-button{
+    background: black;
+    color: white;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+.middle-container > p {
+    font-size: 0.5em;
+}
+.middle-container > #second-paragraph{
+    font-size: 0.35em;
+}
+
+
+/* footer*/
+footer{
+    background: black;
+    padding: 5em;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+.flex-item {
+    
+    padding: 20px;
+    width: 200px;
+    height: 100%;
+    margin-top: 10px; 
+    line-height: 40px;  
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+#usa-logo{
+    width: 27px;
+    height: 15px;
+    padding-left: 5px;
+}
+#usa{
+    text-align: end;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icon{
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 15px;
+    background: rgba(44, 33, 33, 0.829);
+    border: none;
+    opacity: 0.5;
+}
+.footer-heading{
+    color:grey;
+    text-decoration: none;
+}
+.icon{
+    font-size: 0.65em;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 500px;
+    padding-bottom: 5em;
+   
+}
